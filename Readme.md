@@ -2,9 +2,7 @@
 
 A full-stack, ad-free music streaming web app. Users can create an account, browse albums, search for songs, artists and albums, build their own playlists and listen through a persistent player bar that keeps playing while they move between pages.
 
-**Live demo:** [music-player-website-livid.vercel.app](https://music-player-website-livid.vercel.app)
-
-![Browse page](screenshots/03-browse.png)
+![Browse page](assets/images/Screenshot_2025-04-17_110622.png)
 
 ---
 
@@ -69,23 +67,23 @@ A full-stack, ad-free music streaming web app. Users can create an account, brow
 
 | Login | Sign up |
 |-------|---------|
-| ![Login](screenshots/01-login.png) | ![Sign up](screenshots/02-signup.png) |
+| ![Login](assets/images/Screenshot_2025-04-17_110420.png) | ![Sign up](assets/images/Screenshot_2025-04-17_110434.png) |
 
 | Browse | Sidebar navigation |
 |--------|--------------------|
-| ![Browse](screenshots/03-browse.png) | ![Sidebar](screenshots/04-sidebar.png) |
+| ![Browse](assets/images/Screenshot_2025-04-17_110622.png) | ![Sidebar](assets/images/Screenshot_2025-04-17_110640.png) |
 
 | Search | Search results |
 |--------|----------------|
-| ![Search](screenshots/05-search.png) | ![Search results](screenshots/06-search-results.png) |
+| ![Search](assets/images/Screenshot_2025-04-17_110759.png) | ![Search results](assets/images/Screenshot_2025-04-17_111032.png) |
 
 | Album page | Your playlists |
 |------------|----------------|
-| ![Album](screenshots/07-album.png) | ![Playlists](screenshots/08-playlists.png) |
+| ![Album](assets/images/Screenshot_2025-04-17_111055.png) | ![Playlists](assets/images/Screenshot_2025-04-17_110825.png) |
 
 | Settings |
 |----------|
-| ![Settings](screenshots/09-settings.png) |
+| ![Settings](assets/images/Screenshot_2025-04-17_110957.png) |
 
 ---
 
@@ -99,7 +97,6 @@ A full-stack, ad-free music streaming web app. Users can create an account, brow
 | Data exchange | AJAX, JSON |
 | Package manager | Composer |
 | Local server | XAMPP (Apache + MySQL) |
-| Deployment | Vercel (demo) |
 
 ---
 
@@ -119,7 +116,7 @@ A full-stack, ad-free music streaming web app. Users can create an account, brow
 ```
 Music-Player-website/
 ├── admin/              # Admin panel
-├── assets/             # CSS, JavaScript, images and audio files
+├── assets/             # CSS, JavaScript, images (including README screenshots) and audio files
 ├── includes/           # Shared PHP files (config, header, footer, helpers)
 ├── vendor/             # Composer dependencies
 ├── .github/workflows/  # GitHub Actions workflows
@@ -137,8 +134,7 @@ Music-Player-website/
 ├── contact.php         # Contact page
 ├── privacy.html        # Privacy policy
 ├── composer.json       # PHP dependencies
-├── geet (4).sql        # Database dump
-└── screenshots/        # Images used in this README
+└── geet (4).sql        # Database dump
 ```
 
 ---
@@ -235,6 +231,6 @@ GitHub: [@Skedare240507](https://github.com/Skedare240507)
 
 ## License
 
-This project is licensed under the MIT License.
+This is a personal project by Sahil Kedare. © 2025 All rights reserved. The code may not be copied, redistributed or used commercially without permission.
 
 > Album artwork and songs shown in this project belong to their respective owners and are used here for learning and demonstration only.
